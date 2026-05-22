@@ -1,35 +1,23 @@
 ﻿const paneles = [
     {
-        palabra: "linterna",
+        palabra: "koala",
         contenido: "Busca la siguiente pista cerca del agua"
     },
     {
-        palabra: "brujula",
+        palabra: "diamantes-comodín-corazones-picas-tréboles",
         contenido: "La torre más alta te espera"
     },
     {
-        palabra: "cadiz",
+        palabra: "banderín",
         contenido: "Ya casi estáis"
     },
     {
-        palabra: "pirata",
+        palabra: "107",
         contenido: "Los corsarios conocían este lugar"
     },
     {
-        palabra: "oceano",
+        palabra: "cuarenta y tres",
         contenido: "Escuchad las olas"
-    },
-    {
-        palabra: "explora",
-        contenido: "Seguid avanzando"
-    },
-    {
-        palabra: "campamento",
-        contenido: "Última prueba"
-    },
-    {
-        palabra: "victoria",
-        contenido: "Mapa final desbloqueado"
     }
 ]
 
@@ -50,7 +38,7 @@ function render() {
 
         if (abierto) {
             div.innerHTML = `
-        <h2>Panel ${index + 1} ✅</h2>
+        <h2>Localización ${index + 1} ✅</h2>
         <p>${panel.contenido}</p>
       `
         } else {
