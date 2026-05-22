@@ -5,6 +5,17 @@
     padding: 20px;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
 #paneles {
     display: grid;
     gap: 15px;
