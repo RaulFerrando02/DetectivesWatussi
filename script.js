@@ -1,23 +1,23 @@
 ﻿const paneles = [
     {
         palabra: "koala",
-        contenido: "Busca la siguiente pista cerca del agua"
+        contenido: "Correcto, pregunta por la siguiente pista"
     },
     {
         palabra: "diamantes-comodín-corazones-picas-tréboles",
-        contenido: "La torre más alta te espera"
+        contenido: "Correcto, pregunta por la siguiente pista"
     },
     {
         palabra: "banderín",
-        contenido: "Ya casi estáis"
+        contenido: "Correcto, pregunta por la siguiente pista"
     },
     {
         palabra: "107",
-        contenido: "Los corsarios conocían este lugar"
+        contenido: "Correcto, pregunta por la siguiente pista"
     },
     {
         palabra: "cuarenta y tres",
-        contenido: "Escuchad las olas"
+        contenido: "Correcto"
     }
 ]
 
