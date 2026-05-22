@@ -43,7 +43,7 @@ function render() {
       `
         } else {
             div.innerHTML = `
-        <h2>Panel ${index + 1} 🔒</h2>
+        <h2>Localización ${index + 1} 🔒</h2>
         <input type="text" id="input_${index}" placeholder="Palabra clave">
         <button onclick="desbloquear(${index})">Desbloquear</button>
       `
